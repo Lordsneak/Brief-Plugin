@@ -1,13 +1,5 @@
 <?php
-/*
-Plugin Name: Plugin
-Plugin URI: http://plugin.com
-Description: Un plugin d'introduction pour le développement sous WordPress
-Version: 0.01beta
-Author: Hamza
-Author URI: http://plugintest.com
-License: GPL2
-*/
+
 require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 require_once(plugin_dir_path( __FILE__ ) . '/dataset.php');
 
